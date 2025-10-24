@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="arsenal_red">#EF0107</color>      <!-- Merah khas jersey Arsenal -->
+    <color name="arsenal_white">#FFFFFF</color>    <!-- Putih bersih -->
+    <color name="arsenal_dark">#1C1C1C</color>     <!-- Hitam pekat untuk teks -->
+    <color name="arsenal_grey">#F5F5F5</color>     <!-- Abu muda untuk latar -->
+
+    <color name="colorGK">#FFFF00</color>
+    <color name="colorDF">#0000FF</color>
+    <color name="colorMF">#008000</color>
+    <color name="colorFW">#FF0000</color>
+</resources>

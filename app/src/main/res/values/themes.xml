@@ -1,0 +1,8 @@
+<resources>
+
+    <!-- Tema AppCompat / Material Components yang kompatibel -->
+    <style name="Theme.Responsi1MobileH1D023046" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Warna default bisa ditambahkan kalau mau -->
+    </style>
+
+</resources>
