@@ -11,9 +11,9 @@
 
 ## Demo Aplikasi
 
-Aplikasi ini menampilkan beberapa tampilan utama, mulai dari ikon aplikasi di launcher, halaman utama, halaman pelatih, hingga halaman daftar pemain. Berikut merupakan cuplikan demo aplikasi dalam bentuk GIF.
+Berikut merupakan cuplikan demo aplikasi dalam bentuk GIF.
 
-![Demo Aplikasi](demo/demo.gif)
+![Demo Aplikasi](demo_responsi1.gif)
 
 ---
 
