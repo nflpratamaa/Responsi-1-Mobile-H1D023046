@@ -1,15 +1,13 @@
 # Responsi 1 Mobile (H1D023046)
 
-Proyek ini merupakan aplikasi Android sederhana yang dikembangkan menggunakan **Kotlin** untuk memenuhi tugas **Responsi 1** pada mata kuliah **Praktikum Pemrograman Mobile**.  
-Aplikasi ini berfungsi untuk menampilkan informasi lengkap mengenai sebuah klub sepak bola yang datanya diambil langsung dari **Football Data API**. Informasi yang disajikan mencakup profil klub, data pelatih kepala, dan daftar lengkap pemain atau skuad tim.
-
 ---
 
-## Informasi Praktikan
+## Identitas
 
-Nama saya **Naufal Aulia Pratama** dengan NIM **H1D023046**.  
-Pada responsi ini, saya berasal dari **Shift E** dan saat ini juga masih berada di **Shift E**.  
-Saya mendapatkan proyek dengan klub sepak bola **Arsenal FC** yang memiliki **ID 57** pada API.
+Nama : Naufal Aulia Pratama
+NIM : H1D0234046
+Shift KRS : E
+Shift : A
 
 ---
 
@@ -17,11 +15,8 @@ Saya mendapatkan proyek dengan klub sepak bola **Arsenal FC** yang memiliki **ID
 
 Aplikasi ini menampilkan beberapa tampilan utama, mulai dari ikon aplikasi di launcher, halaman utama, halaman pelatih, hingga halaman daftar pemain. Berikut merupakan cuplikan demo aplikasi dalam bentuk GIF.
 
-![Demo Aplikasi](screenshots/demo.gif)
+![Demo Aplikasi](demo/demo.gif)
 
-> *Catatan:* Ganti gambar di atas dengan GIF demo aplikasi milik Anda sendiri yang juga menampilkan ikon aplikasi pada launcher sesuai instruksi.
-
----
 
 ## Fitur Aplikasi
 
@@ -48,25 +43,3 @@ Pada `CoachActivity`, data seperti nama dan kebangsaan pelatih akan ditampilkan 
 Sementara itu, `SquadActivity` menampilkan daftar pemain dengan bantuan `RecyclerView`, di mana datanya dikelola oleh `SquadAdapter.kt`.
 
 Adapter inilah yang mengatur tampilan setiap item pemain menggunakan layout `list_item_player.xml`. Di dalam fungsi `onBindViewHolder`, adapter akan memeriksa posisi pemain dan memberikan warna latar belakang kartu sesuai dengan ketentuan: kuning untuk goalkeeper, biru untuk defender, hijau untuk midfielder, dan merah untuk forward.
-
----
-
-## Struktur Proyek
-
-Struktur utama proyek terdiri atas beberapa folder penting, yaitu `model` untuk menyimpan struktur data, `network` untuk konfigurasi API dan Retrofit, `repository` untuk penghubung data, `viewmodel` untuk pengelolaan logika aplikasi, serta `adapter` untuk mengatur tampilan daftar pemain. Folder `res/layout` digunakan untuk menyimpan berbagai layout tampilan seperti halaman pelatih, halaman skuad, dan item pemain.
-
----
-
-## Teknologi yang Digunakan
-
-Dalam pengembangannya, aplikasi ini menggunakan **Kotlin** sebagai bahasa pemrograman utama dengan dukungan dari **Android Studio** sebagai IDE.  
-Untuk pengambilan data API digunakan **Retrofit** dan **OkHttp**, sedangkan pengelolaan proses asynchronous dilakukan dengan **Kotlin Coroutines**.  
-Data yang ditampilkan diatur menggunakan **LiveData** atau **StateFlow**, dan daftar pemain disajikan menggunakan **RecyclerView** agar lebih efisien dan responsif.
-
----
-
-## Penutup
-
-Proyek ini disusun sebagai bagian dari penilaian **Responsi 1 Praktikum Pemrograman Mobile** di **Universitas Jenderal Soedirman**.  
-Aplikasi ini diharapkan dapat membantu memahami bagaimana cara menghubungkan aplikasi Android dengan API eksternal, menampilkan data dinamis, dan mengelola tampilan secara terstruktur menggunakan arsitektur yang baik.  
-Segala bentuk plagiarisme dilarang, dan proyek ini dibuat murni untuk keperluan akademik.
