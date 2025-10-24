@@ -1,15 +1,13 @@
 # Responsi 1 Mobile (H1D023046)
 
----
 
 ## Identitas
 
-Nama : Naufal Aulia Pratama
-NIM : H1D0234046
-Shift KRS : E
-Shift : A
+* Nama       : Naufal Aulia Pratama
+* NIM        : H1D0234046
+* Shift KRS  : E
+* Shift      : A
 
----
 
 ## Demo Aplikasi
 
@@ -17,6 +15,7 @@ Aplikasi ini menampilkan beberapa tampilan utama, mulai dari ikon aplikasi di la
 
 ![Demo Aplikasi](demo/demo.gif)
 
+---
 
 ## Fitur Aplikasi
 
